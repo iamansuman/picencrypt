@@ -12,7 +12,7 @@ root = ctk.CTk()
 root.geometry("300x400")
 root.resizable(width=False, height=False)
 root.title("PicEncrypt")
-root.iconbitmap("./picencrypt.ico")
+# root.iconbitmap("./picencrypt.ico")
 
 tabView = ctk.CTkTabview(root, width=270, height=380)
 tabView.pack()
